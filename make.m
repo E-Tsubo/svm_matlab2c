@@ -1,0 +1,2 @@
+mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims mat2libsvm.c libsvm/svm.cpp libsvm/svm_model_matlab.c
+mex CFLAGS="\$CFLAGS -std=c99" -largeArrayDims mat2liblinear.c liblinear/tron.cpp liblinear/blas/*.c liblinear/linear.cpp liblinear/linear_model_matlab.c
