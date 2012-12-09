@@ -2,7 +2,7 @@
 
 This is convert program from matlab structure(libsvm, liblinear) to c structure.
 	matlab --> c          (mat2libsvm, mat2liblinear)
-	c          <-- matlab (Sorry, not yet)
+	c          <-- matlab (only liblinear2mat. about libsvm, Sorry, not yet)
 	
 INSTALL:
 At first, please type 'make' to compile.
